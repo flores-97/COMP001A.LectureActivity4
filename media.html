@@ -11,16 +11,32 @@
         <nav>
             <ul>
                 <li><a href="index.html" target="_self">Home</a></li>
-                <li><a href="media.html" target="_self">Media</a>
-                </li><li><a href="forms.html" target="_self">Forms</a></li>
                 <li><a href="tables.html" target="_self">Tables</a></li>
+                <li><a href="forms.html" target="_self">Forms</a></li>
+                <li><a href="media.html" target="_self">Media</a></li>
             </ul>
         </nav>
         <h1>Media</h1>
     </header>
     
     <main>
+        <section id="audioSample">
+            <h2>Audio with controls</h2>
+            <audio controls>
+                <source src="media/media/welcome.mp3" type="audio/mp3">
+                Your browser does not support the audio element
+            </audio>
+        </section>
 
+        <hr>
+
+        <section id="videoSample">
+            <h2>Video with controls</h2>
+            <video width="320" height="240" controls>
+                <source src="media/media/sampson.mp4" type="mp4">
+                Your browser does not support the video element
+            </video>
+        </section>
     </main>
 
     <footer>
