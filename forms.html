@@ -16,6 +16,7 @@
                 <li><a href="tables.html" target="_self">Tables</a></li>
                 <li><a href="forms.html" target="_self">Forms</a></li>
                 <li><a href="media.html" target="_self">Media</a></li>
+                <!-- links to all cites in webpage-->
             </ul>
         </nav>
         <h1>Forms</h1>
@@ -25,22 +26,23 @@
         <form action="/submit" method="post">
             <label for="username">Username</label>
             <input type="text" id="username" name="username" placeholder="Enter your username">
-        
+
+         <!--creates username and box-->
             <br>
 
             <label for="password">Password</label>
             <input type="password" id="password" placeholder="Enter your password">
-
+         <!--creates password box and text-->    
             <br>
 
             <label for="email">Email</label>
             <input type="email" id="email" placeholder="example@email.com">
-
+             <!--section to add email-->
             <br>
 
             <label for="age">Age</label>
             <input type="number" id="age" min="1" max="100">
-
+             <!--section to add age with a specific range-->
             <br>
 
             <label for="male">Male</label>
@@ -49,11 +51,14 @@
             <label for="female">Female</label>
             <input type="radio" id="female" name="gender" value="female">
 
+            <label for="rather not say">Rather not say</label>
+            <input type="radio" id="rather not say" name="gender" value="rather not say">
+             <!--Area to select your gender-->
             <br>
 
             <label for="subscribe">Subscribe to newsletter</label>
             <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-
+            <!--Subscription to emails?-->
             <br>
 
             <label for="country">Country</label>
@@ -61,41 +66,41 @@
                 <option value="usa">USA</option>
                 <option value="canada">Canada</option>
             </select>
-
+            <!--place of origin-->
             <br>
 
             <label for="comments">Comments</label>
             <textarea name="comments" id="comments" rows="4" cols="50"></textarea>
-
+            <!--area for comments-->
             <br>
 
             <label for="file">Upload your photo</label>
             <input type="file" id="file" name="file">
-
+            <!-- area to upload media-->
             <br>
 
             <input type="hidden" id="userid" name="userid" value="12345">
-
+            
             <br>
 
             <label for="volume">Volume</label>
             <input type="range" id="volume" min="0" max="10">
-
+            <!--volume knob-->
             <br>
 
             <label for="birthdate">Birthdate:</label>
             <input type="date" id="birthdate" name="birthdate">
-
+            <!--enter bday info-->
             <br>
 
             <label for="favcolor">Favorite Color</label> 
             <input type="color" id="favcolor" name="favcolor">
-
+            <!--option to select favorite color-->
             <br>
 
             <input type="submit" value="submit">
-
-            <input type="reset" value="reset">
+                    <!--Creates submit button-->
+            <input type="reset" value="reset"><!--Creates reset button-->
         </form>
     </main>
 

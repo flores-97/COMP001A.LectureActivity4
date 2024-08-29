@@ -2,8 +2,18 @@ h1{
     text-align: center;
 }
 h2{ 
-    text-align: left;
+    text-align: center;
 }
 p {
     text-align: center;
 }
+
+header{
+    color: blue;
+}
+
+th{
+   font-style: italic;
+}
+/*aligned text to change the view*\
+/*trying out different options on css*\
